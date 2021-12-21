@@ -101,7 +101,7 @@ int main() {
     int x;
     int y;
     int n;
-    unsigned char * data = stbi_load("A.jpg", &x, &y, &n, 0);
+    unsigned char * data = stbi_load("imgs/A.jpg", &x, &y, &n, 0);
     // x is width
     // y is height
     // n is number of color channels
